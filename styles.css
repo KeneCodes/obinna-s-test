@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(243, 238, 238);
+}
+
+nav {
+  height: 65px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.link {
+  color: rgb(243, 238, 238);
+  text-decoration: none;
+  /* width: fit-content; */
+  padding: 10px 8px;
+}
+
+.link:hover {
+  color: rgb(140, 180, 255);
+  background-color: rgba(140, 180, 255, 0.44);
+  border-radius: 5px;
+}
+
+.beta {
+  /* position: absolute; */
+  background: rgb(238, 113, 134);
+  color: black;
+  padding: 2px 4px;
+  border-radius: 30px;
+  font-size: 7px;
+  text-transform: uppercase;
+}
+
+nav div.nav-wrap {
+  max-width: 1200px;
+  /* width: 100%; */
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.left {
+  justify-content: space-between;
+  width: 45%;
+  /* margin-left: 10px; */
+}
+
+.right {
+  justify-content: space-between;
+  width: 35%;
+}
+
+.logo svg {
+  enable-background: new 0 0 361 104.2;
+  height: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.logo .logo-text {
+  fill: white;
+}
+
+.logo .logo-m {
+  fill: rgb(57, 157, 219);
+}
+
+.logo .logo-_ {
+  fill: rgb(57, 157, 219);
+}
+
+.w-6 {
+  position: absolute;
+  right: 7px;
+}
+
+.w-6:hover {
+  background-color: rgba(205, 205, 205, 0.699);
+  border-radius: 5px;
+  /* padding: -3px 5px; */
+}
+
+p {
+  padding: 8px 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  /* position: relative; */
+}
+
+p:hover {
+  background-color: rgba(205, 205, 205, 0.699);
+}
+
+.search {
+  position: relative;
+}
+
+.search-bar {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 30px;
+  width: 75px;
+}
+
+.login {
+  color: rgb(243, 238, 238);
+  text-decoration: none;
+}
+
+button {
+  margin-right: 20px;
+  color: rgba(205, 205, 205, 0.699);
+  background-color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: 0;
+  border-radius: 8px;
+  height: fit-content;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+button:hover {
+  background-color: rgb(197, 207, 206);
+  cursor: pointer;
+}
+
+/* Trying to attempt the mobile view */
